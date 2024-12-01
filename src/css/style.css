@@ -1,0 +1,31 @@
+.card {
+  width: 600px;
+  margin-bottom: 0;
+  cursor: url("../img/hammer.png") 200 50, pointer;
+}
+
+.hole-game {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.status {
+  margin-bottom: 15px;
+}
+
+.hole {
+  width: 120px;
+  height: 120px;
+  margin: 0 10px 20px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.goblin-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: brown;
+}
