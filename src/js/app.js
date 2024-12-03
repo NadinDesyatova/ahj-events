@@ -2,7 +2,6 @@ import Game from "./game";
 import Goblin from "./goblin";
 import PlayingField from "./playing-field";
 
-
 document.addEventListener("DOMContentLoaded", () => {
   const goblin = new Goblin();
   const card = document.querySelector(".card");

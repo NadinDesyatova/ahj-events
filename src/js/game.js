@@ -35,21 +35,22 @@ export default class Game {
     this.activeHoleIndex = Math.floor(Math.random() * 16);
     while (lastActiveIndex === this.activeHoleIndex) {
       this.activeHoleIndex = Math.floor(Math.random() * 16);
-    } 
+    }
     this.activateHole(this.activeHoleIndex);
   }
 
   onHolesClick(e) {
-    if(e.target.classList.contains("goblin-img")) {
-      this.deadGoblinsCounter.textContent = +this.deadGoblinsCounter.textContent + 1;
+    if (e.target.classList.contains("goblin-img")) {
+      this.deadGoblinsCounter.textContent =
+        +this.deadGoblinsCounter.textContent + 1;
       this.deactivateHole(this.activeHoleIndex);
     }
-  };
+  }
 
-  isPlaying() { 
+  isPlaying() {
     this.playing
-      ? this.playingField.addEventListener('click', this.onHolesClick)
-      : this.playingField.removeEventListener('click', this.onHolesClick);
+      ? this.playingField.addEventListener("click", this.onHolesClick)
+      : this.playingField.removeEventListener("click", this.onHolesClick);
   }
 
   letPlay() {
@@ -66,7 +67,7 @@ export default class Game {
         clearInterval(interval);
       } else {
         this.goblinMoving();
-      }    
+      }
     }, 1000);
   }
 }

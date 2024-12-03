@@ -2,6 +2,8 @@
 
 ![CI](https://github.com//NadinDesyatova/ahj-events/actions/workflows/web.yml/badge.svg)
 
+[Ссылка на Gihub Pages](https://nadindesyatova.github.io/ahj-events/)
+
 ### Игра с гоблинами
 
 #### Описание

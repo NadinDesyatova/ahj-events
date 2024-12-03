@@ -1,6 +1,5 @@
 import goblinSrc from "../img/goblin.png";
 
-
 export default class Goblin {
   constructor() {
     this.class = "goblin-img";
